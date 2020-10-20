@@ -42,6 +42,13 @@ public class BillPayment {
 	public void setPaymentDate(LocalDate paymentDate) {
 		this.paymentDate = paymentDate;
 	}
+	@Override
+	public String toString() {
+		return "BillPayment [billId=" + billId + ", wallet=" + wallet + ", billtype=" + billtype + ", amount=" + amount
+				+ ", paymentDate=" + paymentDate + "]";
+	}
+	
+	
 	
 }
 
