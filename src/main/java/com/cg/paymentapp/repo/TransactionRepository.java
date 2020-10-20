@@ -1,4 +1,4 @@
-package com.cg.payment.repo;
+package com.cg.paymentapp.repo;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import com.cg.paymentapp.beans.Transaction;
 import com.cg.paymentapp.beans.Wallet;
 
-public class TransactionRepository implements ITransactionRepository{
+public class TransactionRepository implements ITransactionRepository {
 
 	public Transaction addTransaction(Transaction tran) {
 		// TODO Auto-generated method stub
