@@ -1,4 +1,4 @@
-package com.cg.payment.repo;
+package com.cg.paymentapp.repo;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

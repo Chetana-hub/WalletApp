@@ -1,4 +1,4 @@
-package com.cg.payment.repo;
+package com.cg.paymentapp.repo;
 import java.util.List;
 
 import com.cg.paymentapp.beans.Customer;

@@ -1,4 +1,4 @@
-package com.cg.payment.service;
+package com.cg.paymentapp.service;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.cg.payment.service;
+package com.cg.paymentapp.service;
 
 import java.time.LocalDate;
 import java.util.List;

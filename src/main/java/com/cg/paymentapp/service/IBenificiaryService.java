@@ -1,9 +1,9 @@
-package com.cg.payment.repo;
+package com.cg.paymentapp.service;
 
 import com.cg.paymentapp.beans.BenificiaryDetails;
 import com.cg.paymentapp.beans.Customer;
 
-public interface IBenificiaryRepository {
+public interface IBenificiaryService {
 
 	public BenificiaryDetails addBenificiary(BenificiaryDetails bd);
 	public BenificiaryDetails updateBenificiary(BenificiaryDetails bd);
