@@ -6,7 +6,7 @@ public class Customer {
 	private String mobileNo;
 	private String password;
 	private Wallet wallet;
-
+    
 		public Customer() {
 		}
 		
@@ -15,6 +15,14 @@ public class Customer {
 			mobileNo=mobileNo2;
 		//	wallet=wallet2;
 	}
+		 @ManyToOne
+		    @JoinColumn(name = "walletId")
+		 private List<Wallet> wallet=new ArrayList<Wallet>(); {
+		        return this.wallet;
+		    }
+		    public void setWallet(Wallet wallet) {
+		        this.wallet = wallet;
+		    }
 		
 		public Wallet getWallet() {
 			return wallet;
